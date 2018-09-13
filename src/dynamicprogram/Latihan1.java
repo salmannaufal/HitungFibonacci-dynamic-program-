@@ -22,5 +22,14 @@ public class Latihan1 {
         
     String identitas = "Salman Naufal Haq / XR2 / 31";
     tampilJudul(identitas);
+    int n = tampilInput();
+    }
+    
+    private static int tampilInput()
+    {
+Scanner scanner = new Scanner(System.in);      
+int n = scanner.nextInt();
+
+return n;
     }
 }
